@@ -100,7 +100,7 @@ var engZone = {
 
 var gapiConfig = {
 	discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
-	clientId: '135473936935-2ck01j4gdd1d1iujb70elsr4c2doa400.apps.googleusercontent.com',
+	clientId: '135473936935-hgvbe9gc3qccn7merq8pkjlf7kljufvv.apps.googleusercontent.com',
 	scope: "https://www.googleapis.com/auth/spreadsheets" //"https://www.googleapis.com/auth/spreadsheets.readonly"
 };
 
