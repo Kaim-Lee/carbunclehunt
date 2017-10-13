@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+* {	margin: 0; padding: 0; }
+html {
+	background-color: rgba(0, 0, 0, .01);
+	display: block;
+}
+
+body, html {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	-webkit-user-select: none;
+	-webkit-font-smoothing: antialiased;	
+}
+
+::-webkit-scrollbar { width: 0; height: 0; }
+
+#warp {
+	position: static;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#header {
+	position: fixed;
+	z-index: 10001;
+	width: 100%;
+	cursor: pointer;
+}
+
+#naviButton {
+	float: left;
+    background: #1a1a1a;
+    height: 100%;
+}
+
+
+#naviButton > div {
+    width: -webkit-calc(100% - 10px);
+    height: -webkit-calc(100% - 10px);
+    margin: 5px;
+}
+
+
+#headerTitle {
+	float: left;
+	height: 100%;
+	color: #fff;
+    text-shadow: 0 0 5px #ffffff;
+    font-family: 'Nanum gothic', serif;
+    background: #1a1a1a;
+    font-weight: bold;
+}
+
+#headerTitle > span {
+    position: relative;
+    top: 20%;
+    padding-left: 10px;
+}
+
+#toggleBtn {
+	float: right;
+    background: #1a1a1a;
+    height: 100%;
+}
+
+#toggleBtn > div {
+    width: -webkit-calc(100% - 10px);
+    height: -webkit-calc(100% - 10px);
+    margin: 5px;
+}
+
+
+
+#login {
+	text-align: center;
+}
+#login button {
+	display: table;
+	margin: 50px auto
+}
+
+.contents {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999;
+    background: rgba(0,0,0,0.5);
+}
+
+.contents table {
+	border-collapse: collapse;
+    border-spacing: 0;
+	width: 100%;
+	line-height: 1.6;
+	color: white;
+}
+
+.contents table td {
+	border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.contents table .zone {
+	text-align: center;
+    white-space: nowrap;
+}
+
+.contents table .name {
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.contents table .time {
+	position: relative;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.contents table .timebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 100%;
+}
+
+.glow { text-shadow: 0 0 3px #ffffff; font-weight: bold; }
+.full { /*color: red;*/ }
+.mid { /*color: lime;*/ }
+.nojen { color: #adadad; }
+
+.lano { color: #009eff; }
+.sanlim { color: #14ffaa; }
+.danal { color: #ffbd54; }
+.mordona { color: #fb00ff; }
+.curu { color: #ff8686; }
+.abal {	color: #ffc1fd; }
+.dura {	color: #f4ff29; }
