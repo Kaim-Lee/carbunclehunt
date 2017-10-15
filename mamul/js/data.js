@@ -105,8 +105,10 @@ var gapiConfig = {
 };
 
 var firebaseConfig = {
-	apiKey: "AIzaSyDKr9mzUWDEcJvX4J7sWzBVBUshKaGSJao",
-	authDomain: "mamul-4db2a.firebaseapp.com",
-	databaseURL: "https://mamul-4db2a.firebaseio.com",
-	storageBucket: "mamul-4db2a.appspot.com",
-};
+    apiKey: "AIzaSyCpAMuycNaRJBRfFbqOYBiYLwEHMn8w7iU",
+    authDomain: "valued-door-182811.firebaseapp.com",
+    databaseURL: "https://valued-door-182811.firebaseio.com",
+    projectId: "valued-door-182811",
+    storageBucket: "valued-door-182811.appspot.com",
+    messagingSenderId: "135473936935"
+  };
